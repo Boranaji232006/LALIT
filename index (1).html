@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+<!-- ===== Local SEO: edit the brand, phone and URLs ===== -->
+<title>Civil, Electrical & Interior Contractors in Bhopal | Free Estimate</title>
+<meta name="description" content="One contractor for civil work, electrical wiring, modular kitchens and interiors in Bhopal. Itemised written estimates, local site supervision. Serving MP Nagar, Arera Colony, Mandideep, Sehore and Bairagarh. Call for a site visit.">
+<link rel="canonical" href="https://www.example.com/">
+<meta name="robots" content="index, follow">
+<meta name="geo.region" content="IN-MP">
+<meta name="geo.placename" content="Bhopal">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_IN">
+<meta property="og:site_name" content="Bhopal Build & Interiors">
+<meta property="og:title" content="Civil, Electrical & Interior Contractors in Bhopal">
+<meta property="og:description" content="Foundation to finished interiors from one team. Itemised estimates and on-site supervision across Bhopal and nearby areas.">
+<meta property="og:url" content="https://www.example.com/">
+<meta property="og:image" content="https://www.example.com/og-cover.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Civil, Electrical & Interior Contractors in Bhopal">
+<meta name="twitter:description" content="Foundation to finished interiors from one team. Request a site visit and written estimate.">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"GeneralContractor","name":"Bhopal Build & Interiors","url":"https://www.example.com/","telephone":"+91-XXXXX-XXXXX","image":"https://www.example.com/og-cover.jpg","address":{"@type":"PostalAddress","addressLocality":"Bhopal","addressRegion":"Madhya Pradesh","addressCountry":"IN"},"areaServed":[{"@type":"City","name":"Bhopal"},{"@type":"City","name":"Mandideep"},{"@type":"City","name":"Sehore"}],"priceRange":"₹₹"}
+</script>
+
+<!-- Ads tracking: paste your Google Tag Manager / gtag / Meta Pixel snippet here. The page already pushes
+     call_click, whatsapp_click, open_quote_modal and generate_lead events to window.dataLayer. -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Hind:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com/3.4.17"></script>
+<script>
+  tailwind.config = {
+    theme: { extend: {
+      colors: { ink:'#0F2A2C', lake:'#14565B', stone:'#ECE9E2', paper:'#F7F5F0', saffron:'#E9801A', line:'#CFCBC0', mute:'#4B5B5B', wa:'#128C4A' },
+      fontFamily: {
+        display: ['"Barlow Condensed"', '"Arial Narrow"', 'sans-serif'],
+        body: ['Hind', 'system-ui', 'sans-serif'],
+        mono: ['"IBM Plex Mono"', 'ui-monospace', 'monospace']
+      }
+    } }
+  };
+</script>
+
+<style>
+  /* Layout concept: a site-drawing sheet. Ink-teal blueprint hero with a title-block form,
+     sandstone paper sections, square corners, mono dimension labels. Bhopal lake + Sanchi sandstone palette. */
+  :root {
+    --ink: #0F2A2C;      /* Upper Lake at night */
+    --lake: #14565B;
+    --stone: #ECE9E2;    /* sandstone page */
+    --paper: #F7F5F0;
+    --saffron: #E9801A;  /* single accent, used for actions */
+    --line: #CFCBC0;
+    --mute: #4B5B5B;
+    --wa: #128C4A;
+    color-scheme: light;
+  }
+  html { scroll-behavior: smooth; }
+  html.modal-open { overflow: hidden; }
+  body { margin: 0; background: var(--stone); color: var(--ink); font-family: Hind, system-ui, sans-serif; -webkit-font-smoothing: antialiased; }
+  body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 60; background: var(--ink); }
+  [hidden] { display: none !important; }
+  section[id] { scroll-margin-top: calc(4.5rem + env(safe-area-inset-top, 0px)); }
+  .wrap { max-width: 74rem; margin-inline: auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+  .sticky-hdr { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 50; }
+  a, button, summary, input, select { -webkit-tap-highlight-color: transparent; }
+  :focus-visible { outline: 3px solid var(--saffron); outline-offset: 2px; }
+
+  .eyebrow { font-family: "IBM Plex Mono", monospace; font-size: .75rem; letter-spacing: .16em; text-transform: uppercase; }
+  .h2 { font-family: "Barlow Condensed", sans-serif; font-weight: 700; text-transform: uppercase; letter-spacing: -.005em; line-height: .98; font-size: clamp(2.25rem, 6vw, 3.5rem); text-wrap: balance; }
+
+  .btn { display: inline-flex; align-items: center; justify-content: center; gap: .5rem; min-height: 48px; padding: .6rem 1.25rem; font-weight: 700; font-size: 1rem; line-height: 1.1; border-radius: 2px; border: 2px solid transparent; cursor: pointer; text-align: center; transition: background-color .15s, color .15s, border-color .15s; }
+  .btn-primary { background: var(--saffron); color: var(--ink); }
+  .btn-primary:hover { background: #F59A3E; }
+  .btn-ghost { border-color: currentColor; background: transparent; }
+  .btn-ghost:hover { background: rgba(255,255,255,.12); }
+  .btn-ghost-dark:hover { background: rgba(15,42,44,.08); }
+  .btn-wa { background: var(--wa); color: #fff; }
+  .btn-wa:hover { background: #0E7A40; }
+  .btn-ink { background: var(--ink); color: #fff; }
+  .btn-ink:hover { background: var(--lake); }
+
+  .blueprint { background-color: var(--ink); background-image: linear-gradient(rgba(255,255,255,.055) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.055) 1px, transparent 1px); background-size: 40px 40px; }
+
+  .lbl { display: block; margin-bottom: .3rem; font-family: "IBM Plex Mono", monospace; font-size: .7rem; letter-spacing: .12em; text-transform: uppercase; color: var(--mute); }
+  .fld { width: 100%; min-height: 48px; padding: .6rem .8rem; background: #fff; color: var(--ink); border: 1px solid #A9A599; border-radius: 2px; font: inherit; }
+  .fld:focus { border-color: var(--lake); outline: 3px solid rgba(233,128,26,.55); outline-offset: 0; }
+
+  .tick { list-style: none; padding: 0; margin: 0; display: grid; gap: .5rem; }
+  .tick li { position: relative; padding-left: 1.5rem; line-height: 1.4; }
+  .tick li::before { content: ""; position: absolute; left: 0; top: .42em; width: .9rem; height: .9rem; background: var(--lake); clip-path: polygon(14% 52%, 0 66%, 38% 100%, 100% 22%, 86% 8%, 38% 72%); }
+
+  .tick-light li::before { background: var(--saffron); }
+  .tab { min-height: 44px; padding: .45rem 1rem; border: 1px solid var(--ink); border-radius: 2px; background: transparent; color: var(--ink); font-weight: 600; cursor: pointer; }
+  .tab.is-active { background: var(--ink); color: #fff; }
+
+  .ph { position: relative; aspect-ratio: 4 / 3; max-width: 100%; display: grid; place-items: center; background-image: repeating-linear-gradient(45deg, rgba(15,42,44,.07) 0 2px, transparent 2px 14px); }
+  .ph-civil { background-color: #D9D4C7; }
+  .ph-elec { background-color: #CFDAD6; }
+  .ph-int { background-color: #E4D5C0; }
+  .ph span { font-family: "IBM Plex Mono", monospace; font-size: .7rem; letter-spacing: .1em; text-transform: uppercase; color: var(--mute); background: var(--paper); padding: .25rem .5rem; }
+
+  details > summary { list-style: none; cursor: pointer; }
+  details > summary::-webkit-details-marker { display: none; }
+  details[open] .faq-plus { transform: rotate(45deg); }
+  .faq-plus { transition: transform .2s; }
+
+  dialog { padding: 0; border: 0; width: 100%; max-width: min(34rem, calc(100vw - 2rem)); max-height: calc(100dvh - 2rem); overflow: auto; background: var(--paper); color: var(--ink); border-radius: 2px; }
+  dialog::backdrop { background: rgba(15,42,44,.72); }
+
+  .map-ph { background-color: #DAD6CA; background-image: linear-gradient(rgba(15,42,44,.09) 1px, transparent 1px), linear-gradient(90deg, rgba(15,42,44,.09) 1px, transparent 1px); background-size: 32px 32px; }
+
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition: none !important; animation: none !important; }
+  }
+</style>
+</head>
+
+<body class="font-body">
+
+<!-- ================= TOP BANNER ================= -->
+<div class="bg-ink text-white/85 text-sm border-b border-white/10">
+  <div class="wrap py-2 flex flex-wrap items-center justify-between gap-x-6 gap-y-1">
+    <p class="font-mono text-xs tracking-wide">Serving Bhopal &amp; Nearby Regions</p>
+    <p class="font-mono text-xs tracking-wide">Call: <a href="tel:+91XXXXXXXXXX" data-call data-phone-text data-track="call_click" data-loc="top_banner" class="text-saffron font-medium underline-offset-4 hover:underline">+91-XXXXX-XXXXX</a></p>
+  </div>
+</div>
+
+<!-- ================= HEADER ================= -->
+<header class="sticky-hdr bg-ink text-white border-b border-white/10">
+  <div class="wrap h-[4.25rem] flex items-center justify-between gap-3">
+    <a href="#top" class="flex items-center gap-3 min-w-0" aria-label="Bhopal Build &amp; Interiors home">
+      <svg width="34" height="34" viewBox="0 0 34 34" aria-hidden="true" class="shrink-0"><rect width="34" height="34" fill="#E9801A"/><path d="M6 28V20h7v-6h7V8h8v20z" fill="#0F2A2C"/></svg>
+      <span class="leading-none min-w-0">
+        <span class="block font-display text-xl font-bold uppercase tracking-wide truncate">Bhopal Build</span>
+        <span class="block font-mono text-[10px] tracking-[.16em] uppercase text-white/65 truncate">&amp; Interiors</span>
+      </span>
+    </a>
+
+    <nav class="hidden lg:flex items-center gap-7 text-[15px] font-medium" aria-label="Primary">
+      <a href="#services" class="hover:text-saffron">Services</a>
+      <a href="#portfolio" class="hover:text-saffron">Portfolio</a>
+      <a href="#process" class="hover:text-saffron">Process</a>
+      <a href="#why-us" class="hover:text-saffron">Why Us</a>
+      <a href="#reviews" class="hover:text-saffron">Reviews</a>
+    </nav>
+
+    <div class="flex items-center gap-2">
+      <a href="tel:+91XXXXXXXXXX" data-call data-track="call_click" data-loc="header" class="btn btn-ghost !min-h-[44px] !px-3 sm:!px-4 text-white">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg>
+        <span>Call Now</span>
+      </a>
+      <button type="button" data-open-quote class="btn btn-primary !min-h-[44px] hidden lg:inline-flex">Get Free Quote</button>
+      <button id="menu-btn" type="button" class="lg:hidden btn btn-ghost !min-h-[44px] !px-3 text-white" aria-expanded="false" aria-controls="mobile-nav" aria-label="Open menu">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+      </button>
+    </div>
+  </div>
+
+  <nav id="mobile-nav" hidden class="lg:hidden border-t border-white/10 bg-ink" aria-label="Mobile">
+    <div class="wrap py-3 grid gap-1 text-lg font-medium">
+      <a href="#services" class="py-3 border-b border-white/10">Services</a>
+      <a href="#portfolio" class="py-3 border-b border-white/10">Portfolio</a>
+      <a href="#process" class="py-3 border-b border-white/10">Process</a>
+      <a href="#why-us" class="py-3 border-b border-white/10">Why Us</a>
+      <a href="#reviews" class="py-3 border-b border-white/10">Reviews</a>
+      <button type="button" data-open-quote class="btn btn-primary mt-3">Get Free Quote / Estimate</button>
+    </div>
+  </nav>
+</header>
+
+<main id="top">
+
+<!-- ================= HERO ================= -->
+<section class="blueprint text-white">
+  <div class="wrap py-12 md:py-20 grid lg:grid-cols-[1.3fr_1fr] gap-10 lg:gap-14 items-start">
+    <div class="min-w-0">
+      <p class="eyebrow text-saffron">Civil · Electrical · Interiors · Bhopal, MP</p>
+      <h1 class="font-display font-bold uppercase leading-[.92] tracking-tight mt-4 text-[clamp(2.75rem,9vw,5.5rem)] text-balance">
+        Complete Civil, Electrical &amp; Interior Solutions in <span class="text-saffron">Bhopal</span>
+      </h1>
+      <p class="mt-5 text-lg md:text-xl text-white/85 max-w-xl leading-snug">
+        One team from foundation and wiring to modular kitchens and finished interiors. You deal with one contractor, one estimate and one site supervisor.
+      </p>
+      <p lang="hi" class="mt-3 text-white/65 text-base">नींव से फिनिशिंग तक, सब कुछ एक ही टीम से।</p>
+
+      <div class="mt-8 flex flex-col sm:flex-row gap-3">
+        <button type="button" data-open-quote data-track="open_quote_modal" data-loc="hero" class="btn btn-primary text-lg">Request Site Visit &amp; Estimate</button>
+        <a href="tel:+91XXXXXXXXXX" data-call data-track="call_click" data-loc="hero" class="btn btn-ghost text-white">Call Now: <span data-phone-text>+91-XXXXX-XXXXX</span></a>
+      </div>
+
+      <dl class="mt-10 grid grid-cols-3 gap-px bg-white/15 border border-white/15 max-w-xl">
+        <div class="bg-ink p-3 sm:p-4 flex flex-col-reverse justify-end">
+          <dt class="text-[11px] sm:text-xs text-white/70 leading-tight mt-1">Completed projects</dt>
+          <dd class="font-display text-3xl sm:text-4xl font-bold leading-none">100+</dd>
+        </div>
+        <div class="bg-ink p-3 sm:p-4 flex flex-col-reverse justify-end">
+          <dt class="text-[11px] sm:text-xs text-white/70 leading-tight mt-1">Engineers &amp; electricians</dt>
+          <dd class="font-display text-3xl sm:text-4xl font-bold leading-none">Licensed</dd>
+        </div>
+        <div class="bg-ink p-3 sm:p-4 flex flex-col-reverse justify-end">
+          <dt class="text-[11px] sm:text-xs text-white/70 leading-tight mt-1">Completion</dt>
+          <dd class="font-display text-3xl sm:text-4xl font-bold leading-none">On-time</dd>
+        </div>
+      </dl>
+    </div>
+
+    <!-- Title-block quick form -->
+    <aside class="bg-paper text-ink border border-white/20 min-w-0" aria-label="Quick callback request">
+      <div class="bg-lake text-white px-5 py-3 flex items-center justify-between gap-3">
+        <h2 class="font-display text-xl font-bold uppercase tracking-wide">Request a callback</h2>
+        <span class="eyebrow !text-[10px] text-white/70">Site visit</span>
+      </div>
+      <div data-lead-wrap class="p-5">
+        <form data-lead novalidate class="grid gap-4">
+          <input type="hidden" name="source" value="hero">
+          <div>
+            <label class="lbl" for="hero-phone">Mobile number</label>
+            <input class="fld" id="hero-phone" name="phone" type="tel" inputmode="numeric" autocomplete="tel" maxlength="14" placeholder="98XXXXXXXX" required>
+          </div>
+          <div>
+            <label class="lbl" for="hero-service">What do you need?</label>
+            <select class="fld" id="hero-service" name="service">
+              <option>Civil &amp; Structural Work</option>
+              <option>Electrical (Internal &amp; External)</option>
+              <option>Custom Furniture &amp; Interiors</option>
+              <option>Turnkey Renovation / Commercial Fit-out</option>
+              <option>Not sure, need advice</option>
+            </select>
+          </div>
+          <p data-err hidden role="alert" class="text-sm font-medium text-red-700"></p>
+          <button type="submit" class="btn btn-primary w-full">Request Call Back</button>
+        </form>
+        <div data-success hidden class="grid gap-3">
+          <h3 data-success-title class="font-display text-2xl font-bold uppercase">Almost done</h3>
+          <p data-success-text class="text-mute leading-snug"></p>
+          <a data-success-wa target="_blank" rel="noopener" data-track="whatsapp_click" data-loc="hero_success" class="btn btn-wa">Send on WhatsApp</a>
+          <a href="tel:+91XXXXXXXXXX" data-call data-track="call_click" data-loc="hero_success" class="btn btn-ghost btn-ghost-dark">Call us instead</a>
+        </div>
+      </div>
+      <dl class="grid grid-cols-3 border-t border-line text-xs">
+        <div class="p-3 border-r border-line"><dt class="font-mono uppercase tracking-wider text-mute text-[10px]">Scope</dt><dd class="font-medium leading-tight mt-0.5">Civil, electrical, interiors</dd></div>
+        <div class="p-3 border-r border-line"><dt class="font-mono uppercase tracking-wider text-mute text-[10px]">Region</dt><dd class="font-medium leading-tight mt-0.5">Bhopal, MP</dd></div>
+        <div class="p-3"><dt class="font-mono uppercase tracking-wider text-mute text-[10px]">Estimate</dt><dd class="font-medium leading-tight mt-0.5">Itemised, in writing</dd></div>
+      </dl>
+    </aside>
+  </div>
+</section>
+
+<!-- ================= SERVICES ================= -->
+<section id="services" class="py-16 md:py-24">
+  <div class="wrap">
+    <p class="eyebrow text-lake">Scope of work</p>
+    <h2 class="h2 mt-3 max-w-3xl">Every trade your site needs, under one contract</h2>
+    <p class="mt-4 text-mute text-lg max-w-2xl leading-snug">For homes, villas, shops, offices and clinics. Tap a service to ask for a quote on exactly that work.</p>
+
+    <div class="mt-10 grid md:grid-cols-2 gap-5">
+
+      <article class="bg-paper border border-line p-6 md:p-7 flex flex-col min-w-0">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#14565B" stroke-width="1.6" aria-hidden="true"><path d="M3 5h18v14H3zM3 10h18M3 15h18M9 5v5M15 10v5M9 15v4"/></svg>
+        <h3 class="font-display text-3xl font-bold uppercase mt-4 leading-none">Civil &amp; Structural Work</h3>
+        <p class="mt-3 text-mute leading-snug">Foundation to finish, with site preparation and structural repairs handled by our own crew.</p>
+        <ul class="tick mt-5">
+          <li>Concrete work, masonry and plastering</li>
+          <li>Waterproofing for terraces, bathrooms and basements</li>
+          <li>Structural repairs and exterior rendering</li>
+          <li>Interior and exterior painting</li>
+        </ul>
+        <button type="button" data-open-quote data-service="Civil &amp; Structural Work" class="btn btn-ink mt-6 self-start">Get a civil work quote</button>
+      </article>
+
+      <article class="bg-paper border border-line p-6 md:p-7 flex flex-col min-w-0">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#14565B" stroke-width="1.6" aria-hidden="true"><path d="M13 2 4 14h7l-1 8 9-12h-7z"/></svg>
+        <h3 class="font-display text-3xl font-bold uppercase mt-4 leading-none">Internal &amp; External Electrical</h3>
+        <p class="mt-3 text-mute leading-snug">Licensed electricians for new wiring, rewiring and outdoor lighting, finished with safe earthing.</p>
+        <ul class="tick mt-5">
+          <li>Complete house and office wiring</li>
+          <li>Panel boards and neat DB dressing</li>
+          <li>Garden, pole and facade lighting</li>
+          <li>Interior mood lighting and safety earthing</li>
+        </ul>
+        <button type="button" data-open-quote data-service="Electrical (Internal &amp; External)" class="btn btn-ink mt-6 self-start">Get an electrical quote</button>
+      </article>
+
+      <article class="bg-paper border border-line p-6 md:p-7 flex flex-col min-w-0">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#14565B" stroke-width="1.6" aria-hidden="true"><path d="M4 3h16v18H4zM12 3v18M9 11v2M15 11v2"/></svg>
+        <h3 class="font-display text-3xl font-bold uppercase mt-4 leading-none">Custom Furniture &amp; Interior Fitting</h3>
+        <p class="mt-3 text-mute leading-snug">Made-to-measure woodwork built for your rooms, fitted and finished on site.</p>
+        <ul class="tick mt-5">
+          <li>Modular kitchens and wardrobes</li>
+          <li>Custom cabinetry and wood paneling</li>
+          <li>POP and false ceiling work</li>
+          <li>Living space interiors with turnkey site setup</li>
+        </ul>
+        <button type="button" data-open-quote data-service="Custom Furniture &amp; Interiors" class="btn btn-ink mt-6 self-start">Get an interiors quote</button>
+      </article>
+
+      <article class="bg-lake text-white p-6 md:p-7 flex flex-col min-w-0">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" aria-hidden="true"><path d="M3 11 12 3l9 8M5 10v11h14V10M10 21v-6h4v6"/></svg>
+        <h3 class="font-display text-3xl font-bold uppercase mt-4 leading-none">Turnkey Renovation &amp; Commercial Fit-outs</h3>
+        <p class="mt-3 text-white/80 leading-snug">Maintenance and full makeovers for homes and businesses, with civil, electrical and interior trades scheduled together so none of them waits on another.</p>
+        <ul class="tick tick-light mt-5 text-white/95">
+          <li>Villa, flat, shop, office and clinic makeovers</li>
+          <li>One schedule and one point of contact</li>
+          <li>Maintenance and repair visits</li>
+        </ul>
+        <button type="button" data-open-quote data-service="Turnkey Renovation / Commercial Fit-out" class="btn btn-primary mt-6 self-start">Plan my renovation</button>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PORTFOLIO ================= -->
+<section id="portfolio" class="py-16 md:py-24 bg-paper border-y border-line">
+  <div class="wrap">
+    <p class="eyebrow text-lake">Portfolio</p>
+    <h2 class="h2 mt-3 max-w-3xl">Recent work across Bhopal</h2>
+    <p class="mt-4 text-mute text-lg max-w-2xl leading-snug">Replace each placeholder with a finished-project photo or a before/after pair, and keep the colony name in the caption.</p>
+
+    <div class="mt-8 flex flex-wrap gap-2" role="tablist" aria-label="Filter projects">
+      <button class="tab is-active" role="tab" aria-selected="true" data-filter="all" type="button">All</button>
+      <button class="tab" role="tab" aria-selected="false" data-filter="civil" type="button">Civil</button>
+      <button class="tab" role="tab" aria-selected="false" data-filter="electrical" type="button">Electrical</button>
+      <button class="tab" role="tab" aria-selected="false" data-filter="interiors" type="button">Furniture / Interiors</button>
+    </div>
+
+    <div class="mt-8 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <figure data-cat="civil" class="min-w-0">
+        <div class="ph ph-civil"><span>Before / after photo</span></div>
+        <figcaption class="pt-3"><p class="font-semibold leading-snug">Villa Renovation - Arera Colony</p><p class="font-mono text-xs text-mute mt-1">Civil · Structural repair · Painting</p></figcaption>
+      </figure>
+      <figure data-cat="interiors" class="min-w-0">
+        <div class="ph ph-int"><span>Project photo</span></div>
+        <figcaption class="pt-3"><p class="font-semibold leading-snug">Commercial Office Setup - MP Nagar</p><p class="font-mono text-xs text-mute mt-1">Interiors · Ceiling · Electrical</p></figcaption>
+      </figure>
+      <figure data-cat="electrical" class="min-w-0">
+        <div class="ph ph-elec"><span>Project photo</span></div>
+        <figcaption class="pt-3"><p class="font-semibold leading-snug">Full-House Rewiring - Bairagarh</p><p class="font-mono text-xs text-mute mt-1">Electrical · Wiring · DB dressing</p></figcaption>
+      </figure>
+      <figure data-cat="civil" class="min-w-0">
+        <div class="ph ph-civil"><span>Before / after photo</span></div>
+        <figcaption class="pt-3"><p class="font-semibold leading-snug">Terrace Waterproofing - Kolar Road</p><p class="font-mono text-xs text-mute mt-1">Civil · Waterproofing</p></figcaption>
+      </figure>
+      <figure data-cat="interiors" class="min-w-0">
+        <div class="ph ph-int"><span>Project photo</span></div>
+        <figcaption class="pt-3"><p class="font-semibold leading-snug">Modular Kitchen - Hoshangabad Road</p><p class="font-mono text-xs text-mute mt-1">Interiors · Modular kitchen</p></figcaption>
+      </figure>
+      <figure data-cat="electrical" class="min-w-0">
+        <div class="ph ph-elec"><span>Project photo</span></div>
+        <figcaption class="pt-3"><p class="font-semibold leading-snug">Garden &amp; Facade Lighting - Shahpura</p><p class="font-mono text-xs text-mute mt-1">Electrical · External lighting</p></figcaption>
+      </figure>
+      <figure data-cat="civil" class="min-w-0">
+        <div class="ph ph-civil"><span>Project photo</span></div>
+        <figcaption class="pt-3"><p class="font-semibold leading-snug">Boundary &amp; Plinth Work - Mandideep</p><p class="font-mono text-xs text-mute mt-1">Civil · Concrete · Masonry</p></figcaption>
+      </figure>
+      <figure data-cat="interiors" class="min-w-0">
+        <div class="ph ph-int"><span>Project photo</span></div>
+        <figcaption class="pt-3"><p class="font-semibold leading-snug">Living Room, POP Ceiling &amp; Paneling - Ayodhya Bypass</p><p class="font-mono text-xs text-mute mt-1">Interiors · Ceiling · Woodwork</p></figcaption>
+      </figure>
+      <figure data-cat="electrical" class="min-w-0">
+        <div class="ph ph-elec"><span>Project photo</span></div>
+        <figcaption class="pt-3"><p class="font-semibold leading-snug">Panel Board &amp; Earthing - Govindpura</p><p class="font-mono text-xs text-mute mt-1">Electrical · Panels · Earthing</p></figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PROCESS ================= -->
+<section id="process" class="py-16 md:py-24">
+  <div class="wrap">
+    <p class="eyebrow text-lake">How a project runs</p>
+    <h2 class="h2 mt-3 max-w-3xl">From site visit to handover in four steps</h2>
+
+    <ol class="mt-10 grid sm:grid-cols-2 lg:grid-cols-4 gap-px bg-line border border-line">
+      <li class="bg-stone p-6">
+        <p class="font-mono text-sm text-lake">Step 1</p>
+        <h3 class="font-display text-2xl font-bold uppercase mt-2 leading-none">Site visit &amp; measurement</h3>
+        <p class="mt-3 text-mute leading-snug">An engineer visits your site, takes measurements and listens to what you want done.</p>
+      </li>
+      <li class="bg-stone p-6">
+        <p class="font-mono text-sm text-lake">Step 2</p>
+        <h3 class="font-display text-2xl font-bold uppercase mt-2 leading-none">Itemised written estimate</h3>
+        <p class="mt-3 text-mute leading-snug">Quantities, rates and the brand for each material, written down before you commit.</p>
+      </li>
+      <li class="bg-stone p-6">
+        <p class="font-mono text-sm text-lake">Step 3</p>
+        <h3 class="font-display text-2xl font-bold uppercase mt-2 leading-none">Work under supervision</h3>
+        <p class="mt-3 text-mute leading-snug">Civil, electrical and interior crews are scheduled in the right order with a supervisor on site.</p>
+      </li>
+      <li class="bg-stone p-6">
+        <p class="font-mono text-sm text-lake">Step 4</p>
+        <h3 class="font-display text-2xl font-bold uppercase mt-2 leading-none">Handover &amp; snag check</h3>
+        <p class="mt-3 text-mute leading-snug">We walk through the finished work with you and fix any snags before we close the job.</p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- ================= WHY US ================= -->
+<section id="why-us" class="py-16 md:py-24 bg-lake text-white">
+  <div class="wrap">
+    <div class="min-w-0">
+      <p class="eyebrow text-saffron">The Bhopal advantage</p>
+      <h2 class="h2 mt-3">Local team. Written prices. Named materials.</h2>
+      <ul class="mt-10 grid sm:grid-cols-2 gap-x-12 gap-y-8 max-w-4xl">
+        <li>
+          <h3 class="font-display text-2xl font-bold uppercase leading-none">Transparent pricing</h3>
+          <p class="mt-2 text-white/80 leading-snug">After the site visit and a discussion with you, we share the price in writing, item by item. No hidden costs, and any change is agreed with you before the work starts.</p>
+        </li>
+        <li>
+          <h3 class="font-display text-2xl font-bold uppercase leading-none">Local on-site supervision</h3>
+          <p class="mt-2 text-white/80 leading-snug">Our engineers are in Bhopal and visit your site while work is running, so decisions do not wait on phone calls.</p>
+        </li>
+        <li>
+          <h3 class="font-display text-2xl font-bold uppercase leading-none">Material guarantee</h3>
+          <p class="mt-2 text-white/80 leading-snug">Standard brands for wire, paint, cement and hardware. The brand is named against each item in your estimate.</p>
+        </li>
+        <li>
+          <h3 class="font-display text-2xl font-bold uppercase leading-none">One contractor for all trades</h3>
+          <p class="mt-2 text-white/80 leading-snug">Civil, electrical and interiors on one schedule, so the carpenter is not waiting for the wiring or the painter for the plaster.</p>
+        </li>
+      </ul>
+    </div>
+
+    <div class="min-w-0 mt-12 pt-8 border-t border-white/20">
+      <h3 class="eyebrow text-saffron">Areas we serve</h3>
+      <p class="font-display text-3xl sm:text-4xl font-bold uppercase leading-none mt-3">All of Bhopal region, every colony and locality</p>
+      <p class="mt-3 text-white/80 max-w-2xl leading-snug">A few of the areas we work in are listed below. If your site is in Bhopal, we cover it.</p>
+      <ul class="mt-5 flex flex-wrap gap-2 text-sm">
+        <li class="border border-white/30 px-3 py-1.5">MP Nagar</li><li class="border border-white/30 px-3 py-1.5">Arera Colony</li><li class="border border-white/30 px-3 py-1.5">Kolar Road</li><li class="border border-white/30 px-3 py-1.5">Hoshangabad Road</li><li class="border border-white/30 px-3 py-1.5">Bairagarh</li><li class="border border-white/30 px-3 py-1.5">Ayodhya Bypass</li><li class="border border-white/30 px-3 py-1.5">Shahpura</li><li class="border border-white/30 px-3 py-1.5">Govindpura</li><li class="border border-white/30 px-3 py-1.5">Piplani</li><li class="border border-white/30 px-3 py-1.5">Habibganj</li><li class="border border-white/30 px-3 py-1.5">Mandideep</li><li class="border border-white/30 px-3 py-1.5">Sehore</li><li class="border border-saffron text-saffron px-3 py-1.5">+ all other Bhopal areas</li>
+      </ul>
+      <div class="mt-6 bg-ink border border-white/20 p-5 flex flex-col md:flex-row md:items-center justify-between gap-4 max-w-3xl">
+        <p class="text-lg leading-snug"><strong class="font-semibold">Site outside Bhopal?</strong> Contact us and we will tell you if we can take it up.</p>
+        <div class="flex flex-col sm:flex-row gap-3 shrink-0">
+          <a href="tel:+91XXXXXXXXXX" data-call data-track="call_click" data-loc="areas" class="btn btn-primary">Call Now</a>
+          <a data-wa target="_blank" rel="noopener" data-track="whatsapp_click" data-loc="areas" class="btn btn-wa">WhatsApp Us</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= REVIEWS ================= -->
+<!-- Replace each slot with a real review from a completed project. Do not publish invented testimonials. -->
+<section id="reviews" class="py-16 md:py-24">
+  <div class="wrap">
+    <p class="eyebrow text-lake">Client reviews</p>
+    <h2 class="h2 mt-3 max-w-3xl">What Bhopal clients say</h2>
+    <p class="mt-4 text-mute text-lg max-w-2xl leading-snug">Placeholder slots below. After each handover, ask the client for a Google review and paste the best ones here.</p>
+
+    <div class="mt-10 grid md:grid-cols-3 gap-5">
+      <figure class="border border-dashed border-[#8E8A7E] p-6 flex flex-col gap-4 min-w-0">
+        <p class="font-mono text-[11px] uppercase tracking-wider text-mute">Review slot 1</p>
+        <blockquote class="text-lg leading-snug text-mute">[Paste a real client review about civil work here.]</blockquote>
+        <figcaption class="mt-auto font-semibold">[Client name], [Colony], Bhopal</figcaption>
+      </figure>
+      <figure class="border border-dashed border-[#8E8A7E] p-6 flex flex-col gap-4 min-w-0">
+        <p class="font-mono text-[11px] uppercase tracking-wider text-mute">Review slot 2</p>
+        <blockquote class="text-lg leading-snug text-mute">[Paste a real client review about electrical or interiors here.]</blockquote>
+        <figcaption class="mt-auto font-semibold">[Client name], [Colony], Bhopal</figcaption>
+      </figure>
+      <figure class="border border-dashed border-[#8E8A7E] p-6 flex flex-col gap-4 min-w-0">
+        <p class="font-mono text-[11px] uppercase tracking-wider text-mute">Review slot 3</p>
+        <blockquote class="text-lg leading-snug text-mute">[Paste a real client review from a commercial project here.]</blockquote>
+        <figcaption class="mt-auto font-semibold">[Business name], [Area], Bhopal</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTACT / LEAD FORM ================= -->
+<section id="contact" class="py-16 md:py-24 bg-paper border-y border-line">
+  <div class="wrap grid lg:grid-cols-[1fr_1.1fr] gap-10 lg:gap-14 items-start">
+    <div class="min-w-0">
+      <p class="eyebrow text-lake">Get your estimate</p>
+      <h2 class="h2 mt-3">Tell us about your site</h2>
+      <p class="mt-4 text-mute text-lg leading-snug max-w-md">Share your location and the work you need. We will arrange a site visit and send an itemised estimate in writing.</p>
+
+      <div class="mt-7 grid sm:grid-cols-2 lg:grid-cols-1 xl:grid-cols-2 gap-3">
+        <a href="tel:+91XXXXXXXXXX" data-call data-track="call_click" data-loc="contact" class="btn btn-ink">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg>
+          Call <span data-phone-text>+91-XXXXX-XXXXX</span>
+        </a>
+        <a data-wa target="_blank" rel="noopener" data-track="whatsapp_click" data-loc="contact" class="btn btn-wa">Chat on WhatsApp</a>
+      </div>
+
+      <!-- Map placeholder. Live embed (put in your own deployed copy):
+           <iframe src="https://www.google.com/maps?q=YOUR+BUSINESS+NAME+Bhopal&output=embed" class="w-full h-full border-0" loading="lazy" title="Our location in Bhopal"></iframe> -->
+      <div class="mt-8 border border-line">
+        <div class="map-ph h-56 relative grid place-items-center">
+          <svg width="40" height="40" viewBox="0 0 24 24" fill="#E9801A" stroke="#0F2A2C" stroke-width="1.5" aria-hidden="true"><path d="M12 22s7-6.2 7-12a7 7 0 0 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.5" fill="#0F2A2C"/></svg>
+          <span class="absolute bottom-3 left-3 font-mono text-[11px] uppercase tracking-wider bg-paper px-2 py-1">Map placeholder · Bhopal</span>
+        </div>
+        <div class="p-4 flex flex-wrap items-center justify-between gap-3 text-sm">
+          <address class="not-italic leading-snug">[Office address], Bhopal,<br>Madhya Pradesh<br><span class="text-mute">Mon–Sat, 9 am – 7 pm</span></address>
+          <a href="https://www.google.com/maps/search/?api=1&amp;query=Bhopal" target="_blank" rel="noopener" class="font-semibold underline underline-offset-4 hover:text-lake">Open in Google Maps</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-stone border border-line min-w-0">
+      <div class="bg-ink text-white px-5 py-3 flex items-center justify-between gap-3">
+        <h3 class="font-display text-xl font-bold uppercase tracking-wide">Site visit &amp; estimate request</h3>
+        <span class="eyebrow !text-[10px] text-white/65">About 1 minute</span>
+      </div>
+
+      <div id="contact-wrap" data-lead-wrap class="p-5 md:p-6">
+        <form data-lead novalidate class="grid gap-4">
+          <input type="hidden" name="source" value="contact">
+          <div class="grid sm:grid-cols-2 gap-4">
+            <div>
+              <label class="lbl" for="f-name">Your name</label>
+              <input class="fld" id="f-name" name="name" type="text" autocomplete="name" required placeholder="Full name">
+            </div>
+            <div>
+              <label class="lbl" for="f-phone">Mobile number</label>
+              <input class="fld" id="f-phone" name="phone" type="tel" inputmode="numeric" autocomplete="tel" maxlength="14" required placeholder="98XXXXXXXX">
+            </div>
+          </div>
+          <div>
+            <label class="lbl" for="f-area">Location / colony in Bhopal</label>
+            <input class="fld" id="f-area" name="area" type="text" list="areas" autocomplete="off" placeholder="e.g. Arera Colony, MP Nagar, Mandideep">
+            <datalist id="areas"><option value="MP Nagar"><option value="Arera Colony"><option value="Kolar Road"><option value="Hoshangabad Road"><option value="Bairagarh"><option value="Ayodhya Bypass"><option value="Shahpura"><option value="Govindpura"><option value="Piplani"><option value="Habibganj"><option value="Mandideep"><option value="Sehore"></datalist>
+          </div>
+          <div>
+            <label class="lbl" for="f-service">Service required</label>
+            <select class="fld" id="f-service" name="service">
+              <option>Civil &amp; Structural Work</option>
+              <option>Electrical (Internal &amp; External)</option>
+              <option>Custom Furniture &amp; Interiors</option>
+              <option>Turnkey Renovation / Commercial Fit-out</option>
+              <option>Not sure, need advice</option>
+            </select>
+          </div>
+          <div class="grid sm:grid-cols-2 gap-4">
+            <div>
+              <label class="lbl" for="f-budget">Estimated budget</label>
+              <select class="fld" id="f-budget" name="budget">
+                <option value="">Select a range</option>
+                <option>Under ₹1 lakh</option><option>₹1–5 lakh</option><option>₹5–15 lakh</option><option>₹15 lakh and above</option><option>Not sure yet</option>
+              </select>
+            </div>
+            <div>
+              <label class="lbl" for="f-timeline">Timeline</label>
+              <select class="fld" id="f-timeline" name="timeline">
+                <option value="">When do you want to start?</option>
+                <option>Within 2 weeks</option><option>Within a month</option><option>In 2–3 months</option><option>Just planning</option>
+              </select>
+            </div>
+          </div>
+          <p data-err hidden role="alert" class="text-sm font-medium text-red-700"></p>
+          <button type="submit" class="btn btn-primary w-full text-lg">Request Site Visit &amp; Estimate</button>
+          <p class="text-xs text-mute leading-snug">We use your number only to contact you about this enquiry.</p>
+        </form>
+
+        <div data-success hidden class="grid gap-3">
+          <h3 data-success-title class="font-display text-3xl font-bold uppercase leading-none">Almost done</h3>
+          <p data-success-text class="text-mute leading-snug"></p>
+          <a data-success-wa target="_blank" rel="noopener" data-track="whatsapp_click" data-loc="form_success" class="btn btn-wa">Send on WhatsApp</a>
+          <a href="tel:+91XXXXXXXXXX" data-call data-track="call_click" data-loc="form_success" class="btn btn-ghost btn-ghost-dark">Call us instead</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FAQ ================= -->
+<section id="faq" class="py-16 md:py-24">
+  <div class="wrap grid lg:grid-cols-[.8fr_1.2fr] gap-10 lg:gap-16">
+    <div>
+      <p class="eyebrow text-lake">Questions</p>
+      <h2 class="h2 mt-3">Before you call</h2>
+      <p class="mt-4 text-mute text-lg leading-snug max-w-sm">Not answered here? Call or message us on WhatsApp.</p>
+    </div>
+    <div class="border-t border-line min-w-0" id="faq-list">
+      <details class="border-b border-line group">
+        <summary class="flex items-center justify-between gap-4 py-5 text-lg font-semibold">Do you take turnkey contracts?<span class="faq-plus font-mono text-2xl leading-none shrink-0" aria-hidden="true">+</span></summary>
+        <p class="pb-5 pr-8 text-mute leading-relaxed">Yes. We take a project from civil work and wiring through to furniture, ceilings and painting under one contract, one schedule and one estimate. You can also hire us for a single trade.</p>
+      </details>
+      <details class="border-b border-line group">
+        <summary class="flex items-center justify-between gap-4 py-5 text-lg font-semibold">What paint, wire and cement brands do you use?<span class="faq-plus font-mono text-2xl leading-none shrink-0" aria-hidden="true">+</span></summary>
+        <p class="pb-5 pr-8 text-mute leading-relaxed">We use standard, established brands for wires, paints, cement and hardware. The brand and grade for every item are written in your estimate, and you can ask for a different brand before work begins.</p>
+      </details>
+      <details class="border-b border-line group">
+        <summary class="flex items-center justify-between gap-4 py-5 text-lg font-semibold">Do you provide site visits in Bhopal?<span class="faq-plus font-mono text-2xl leading-none shrink-0" aria-hidden="true">+</span></summary>
+        <p class="pb-5 pr-8 text-mute leading-relaxed">Yes. Yes. Our team visits sites across the whole Bhopal region, including Mandideep, Sehore and Bairagarh. For a site outside Bhopal, call or message us and we will confirm if we can take it up.</p>
+      </details>
+      <details class="border-b border-line group">
+        <summary class="flex items-center justify-between gap-4 py-5 text-lg font-semibold">How do you price a job?<span class="faq-plus font-mono text-2xl leading-none shrink-0" aria-hidden="true">+</span></summary>
+        <p class="pb-5 pr-8 text-mute leading-relaxed">After measuring the site, we send an itemised estimate with quantities, rates and materials. Anything outside that scope is discussed and agreed with you before we do it.</p>
+      </details>
+      <details class="border-b border-line group">
+        <summary class="flex items-center justify-between gap-4 py-5 text-lg font-semibold">Do you work on shops, offices and clinics?<span class="faq-plus font-mono text-2xl leading-none shrink-0" aria-hidden="true">+</span></summary>
+        <p class="pb-5 pr-8 text-mute leading-relaxed">Yes. We handle commercial fit-outs and renovations as well as homes and villas, including electrical load planning, ceilings, partitions and woodwork.</p>
+      </details>
+      <details class="border-b border-line group">
+        <summary class="flex items-center justify-between gap-4 py-5 text-lg font-semibold">How long will my project take?<span class="faq-plus font-mono text-2xl leading-none shrink-0" aria-hidden="true">+</span></summary>
+        <p class="pb-5 pr-8 text-mute leading-relaxed">It depends on the scope. After the site visit we give you a written timeline together with the estimate, so you know the start and handover dates before you commit.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="bg-ink text-white/80 pb-28 md:pb-10">
+  <div class="wrap pt-12 grid md:grid-cols-[1.4fr_1fr_1fr] gap-10">
+    <div class="min-w-0">
+      <p class="font-display text-2xl font-bold uppercase text-white leading-none">Bhopal Build &amp; Interiors</p>
+      <p class="mt-3 max-w-sm leading-snug">Civil, electrical and interior contractors serving Bhopal, Madhya Pradesh and nearby areas.</p>
+    </div>
+    <div>
+      <h3 class="eyebrow text-saffron">Contact</h3>
+      <address class="not-italic mt-3 leading-relaxed">
+        [Office address]<br>Bhopal, Madhya Pradesh<br>
+        <a href="tel:+91XXXXXXXXXX" data-call data-phone-text data-track="call_click" data-loc="footer" class="text-white underline underline-offset-4">+91-XXXXX-XXXXX</a>
+      </address>
+    </div>
+    <div>
+      <h3 class="eyebrow text-saffron">Follow</h3>
+      <ul class="mt-3 grid gap-2">
+        <li><a href="#" class="underline underline-offset-4 hover:text-white">Instagram</a></li>
+        <li><a href="#" class="underline underline-offset-4 hover:text-white">Facebook</a></li>
+        <li><a href="#" class="underline underline-offset-4 hover:text-white">YouTube</a></li>
+        <li><a href="#" class="underline underline-offset-4 hover:text-white">Google Business Profile</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="wrap mt-10 pt-6 border-t border-white/15 text-sm text-white/60">
+    <p>© <span id="yr">2026</span> Bhopal Build &amp; Interiors. All rights reserved.</p>
+  </div>
+</footer>
+
+<!-- ================= STICKY MOBILE ACTION BAR ================= -->
+<div class="md:hidden fixed bottom-0 inset-x-0 z-40 bg-ink border-t border-white/15 grid grid-cols-3 gap-2 pt-2" style="padding-left:max(8px,env(safe-area-inset-left,0px));padding-right:max(8px,env(safe-area-inset-right,0px));padding-bottom:calc(8px + env(safe-area-inset-bottom,0px))">
+  <a href="tel:+91XXXXXXXXXX" data-call data-track="call_click" data-loc="sticky_bar" class="btn btn-primary !px-2">Call</a>
+  <a data-wa target="_blank" rel="noopener" data-track="whatsapp_click" data-loc="sticky_bar" class="btn btn-wa !px-2">WhatsApp</a>
+  <button type="button" data-open-quote data-track="open_quote_modal" data-loc="sticky_bar" class="btn btn-ghost text-white !px-2">Free Quote</button>
+</div>
+
+<!-- ================= QUOTE MODAL ================= -->
+<dialog id="quote-dialog" aria-labelledby="quote-title">
+  <div class="bg-ink text-white px-5 py-3 flex items-center justify-between gap-3 sticky top-0 z-10">
+    <h2 id="quote-title" class="font-display text-xl font-bold uppercase tracking-wide">Request site visit &amp; estimate</h2>
+    <button type="button" data-close class="btn btn-ghost !min-h-[40px] !px-3 text-white" aria-label="Close form">Close</button>
+  </div>
+  <div id="quote-body" class="p-5"></div>
+</dialog>
+
+<script>
+  /* ===== EDIT THESE ===== */
+  const CONFIG = {
+    phoneDisplay: '+91-XXXXX-XXXXX',
+    phoneTel: '+91XXXXXXXXXX',     // used for tel: links
+    whatsapp: '91XXXXXXXXXX',      // country code + number, digits only
+    formEndpoint: ''               // optional: Formspree / Google Apps Script URL that accepts a JSON POST
+  };
+
+  /* ===== Tracking (works with GTM dataLayer, gtag and Meta Pixel when present) ===== */
+  window.dataLayer = window.dataLayer || [];
+  function track(event, params) {
+    params = params || {};
+    try {
+      window.dataLayer.push(Object.assign({ event: event }, params));
+      if (typeof gtag === 'function') gtag('event', event, params);
+      if (typeof fbq === 'function' && event === 'generate_lead') fbq('track', 'Lead');
+    } catch (e) { /* tracking must never break the page */ }
+  }
+  document.addEventListener('click', function (e) {
+    var t = e.target.closest('[data-track]');
+    if (t) track(t.dataset.track, { location: t.dataset.loc || '' });
+  });
+
+  /* ===== Apply phone / WhatsApp config ===== */
+  function waLink(text) {
+    return 'https://wa.me/' + CONFIG.whatsapp + '?text=' + encodeURIComponent(text);
+  }
+  function applyConfig(root) {
+    root = root || document;
+    root.querySelectorAll('[data-call]').forEach(function (a) { a.setAttribute('href', 'tel:' + CONFIG.phoneTel); });
+    root.querySelectorAll('[data-phone-text]').forEach(function (n) { n.textContent = CONFIG.phoneDisplay; });
+    root.querySelectorAll('[data-wa]').forEach(function (a) { a.setAttribute('href', waLink('Hello, I need a quote for civil / electrical / interior work in Bhopal.')); });
+  }
+  applyConfig();
+  document.getElementById('yr').textContent = new Date().getFullYear();
+
+  /* ===== Mobile navigation ===== */
+  var menuBtn = document.getElementById('menu-btn');
+  var mobileNav = document.getElementById('mobile-nav');
+  function setMenu(open) {
+    mobileNav.hidden = !open;
+    menuBtn.setAttribute('aria-expanded', String(open));
+    menuBtn.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+  }
+  menuBtn.addEventListener('click', function () { setMenu(mobileNav.hidden); });
+
+  /* ===== Smooth scrolling for in-page links ===== */
+  var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest('a[href^="#"]');
+    if (!a) return;
+    var id = a.getAttribute('href');
+    if (id.length < 2) return;
+    var target = document.querySelector(id);
+    if (!target) return;
+    e.preventDefault();
+    setMenu(false);
+    target.scrollIntoView({ behavior: reduceMotion ? 'auto' : 'smooth', block: 'start' });
+  });
+
+  /* ===== Quote modal (clones the contact form so both stay in sync) ===== */
+  var quote = document.getElementById('quote-dialog');
+  var quoteBody = document.getElementById('quote-body');
+
+  function buildModalForm() {
+    if (quoteBody.dataset.ready) return;
+    var copy = document.getElementById('contact-wrap').cloneNode(true);
+    copy.removeAttribute('id');
+    copy.querySelectorAll('[id]').forEach(function (el) { el.id = 'm-' + el.id; });
+    copy.querySelectorAll('label[for]').forEach(function (l) { l.htmlFor = 'm-' + l.htmlFor; });
+    copy.querySelectorAll('[list]').forEach(function (i) { i.setAttribute('list', 'm-' + i.getAttribute('list')); });
+    copy.querySelector('[name=source]').value = 'modal';
+    applyConfig(copy);
+    quoteBody.appendChild(copy);
+    quoteBody.dataset.ready = '1';
+  }
+  function resetWrap(wrap) {
+    wrap.querySelector('form').hidden = false;
+    wrap.querySelector('[data-success]').hidden = true;
+    var err = wrap.querySelector('[data-err]'); err.hidden = true;
+  }
+  function openQuote(service) {
+    buildModalForm();
+    var wrap = quoteBody.querySelector('[data-lead-wrap]');
+    resetWrap(wrap);
+    if (service) {
+      var sel = wrap.querySelector('select[name=service]');
+      Array.prototype.forEach.call(sel.options, function (o) { if (o.value === service || o.text === service) sel.value = o.value || o.text; });
+    }
+    setMenu(false);
+    try { quote.showModal(); } catch (e) { quote.setAttribute('open', ''); }
+    document.documentElement.classList.add('modal-open');
+  }
+  document.addEventListener('click', function (e) {
+    var opener = e.target.closest('[data-open-quote]');
+    if (opener) { openQuote(opener.dataset.service || ''); track('open_quote_modal', { service: opener.dataset.service || '' }); }
+    if (e.target.closest('[data-close]')) quote.close();
+  });
+  quote.addEventListener('click', function (e) { if (e.target === quote) quote.close(); });
+  quote.addEventListener('close', function () { document.documentElement.classList.remove('modal-open'); });
+
+  /* ===== Lead forms (hero, contact, modal) ===== */
+  document.addEventListener('submit', function (e) {
+    var form = e.target.closest('form[data-lead]');
+    if (!form) return;
+    e.preventDefault();
+
+    var data = {};
+    new FormData(form).forEach(function (v, k) { data[k] = String(v).trim(); });
+    var err = form.querySelector('[data-err]');
+    var phone = (data.phone || '').replace(/[\s-]/g, '');
+
+    if (form.querySelector('[name=name]') && !data.name) {
+      err.textContent = 'Please enter your name.'; err.hidden = false;
+      form.querySelector('[name=name]').focus(); return;
+    }
+    if (!/^(\+?91)?[6-9]\d{9}$/.test(phone)) {
+      err.textContent = 'Enter a valid 10-digit mobile number.'; err.hidden = false;
+      form.querySelector('[name=phone]').focus(); return;
+    }
+    err.hidden = true;
+
+    var wrap = form.closest('[data-lead-wrap]');
+    var success = wrap.querySelector('[data-success]');
+    var title = wrap.querySelector('[data-success-title]');
+    var text = wrap.querySelector('[data-success-text]');
+    var wa = wrap.querySelector('[data-success-wa]');
+
+    var lines = ['Hello, I would like a site visit and estimate.'];
+    if (data.name) lines.push('Name: ' + data.name);
+    lines.push('Phone: ' + phone);
+    if (data.area) lines.push('Location: ' + data.area);
+    if (data.service) lines.push('Service: ' + data.service);
+    if (data.budget) lines.push('Budget: ' + data.budget);
+    if (data.timeline) lines.push('Timeline: ' + data.timeline);
+    wa.setAttribute('href', waLink(lines.join('\n')));
+
+    function done(received) {
+      form.hidden = true; success.hidden = false;
+      if (received) {
+        title.textContent = 'Request received';
+        text.textContent = 'Thank you. We will call you on ' + phone + ' to confirm a site visit. To speed things up, you can also send these details on WhatsApp.';
+      } else {
+        title.textContent = 'One more step';
+        text.textContent = 'Tap Send on WhatsApp so your details reach us instantly, or call us now.';
+      }
+      track('generate_lead', { source: data.source || '', service: data.service || '' });
+    }
+
+    if (CONFIG.formEndpoint) {
+      var btn = form.querySelector('[type=submit]'); btn.disabled = true;
+      fetch(CONFIG.formEndpoint, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(data) })
+        .then(function (r) { btn.disabled = false; done(r.ok); })
+        .catch(function () { btn.disabled = false; done(false); });
+    } else {
+      done(false);
+    }
+  });
+
+  /* ===== Portfolio tabs ===== */
+  var tabs = document.querySelectorAll('[data-filter]');
+  tabs.forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var f = btn.dataset.filter;
+      tabs.forEach(function (t) {
+        var on = t === btn;
+        t.setAttribute('aria-selected', String(on));
+        t.classList.toggle('is-active', on);
+      });
+      document.querySelectorAll('[data-cat]').forEach(function (tile) {
+        tile.hidden = !(f === 'all' || tile.dataset.cat === f);
+      });
+    });
+  });
+
+  /* ===== FAQ: one open at a time ===== */
+  var faqs = document.querySelectorAll('#faq-list details');
+  faqs.forEach(function (d) {
+    d.addEventListener('toggle', function () {
+      if (d.open) faqs.forEach(function (o) { if (o !== d) o.open = false; });
+    });
+  });
+</script>
+</body>
+</html>
